@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertix Construction - Beyond Structure</title>
-    <!-- Bootstrap CDN untuk grid dan responsivitas (mirip situs asli) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Google Fonts (Poppins, mirip dengan situs) -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome untuk ikon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- CSS Kustom -->
     <style>
-        /* CSS Kustom (mirip dengan yang saya buat sebelumnya, tapi lebih lengkap) */
         body {
             font-family: 'Poppins', sans-serif;
             color: #333;
             background-color: #f8f9fa;
         }
         
-        /* Header */
         header {
-            background-color: #007bff; /* Biru utama */
+            background-color: #007bff;
             color: white;
             padding: 1rem 0;
             position: fixed;
@@ -60,7 +54,6 @@
             border-radius: 4px;
         }
         
-        /* Hero Section dengan Slider */
         .hero {
             height: 100vh;
             position: relative;
@@ -69,8 +62,8 @@
         
         .hero-slider {
             display: flex;
-            width: 300%; /* 3 slide */
-            animation: slide 10s infinite; /* Animasi otomatis */
+            width: 300%;
+            animation: slide 10s infinite;
         }
         
         .slide {
@@ -114,7 +107,7 @@
         }
         
         .btn-primary {
-            background-color: #ffc107; /* Kuning untuk kontras */
+            background-color: #ffc107;
             border: none;
             padding: 0.75rem 1.5rem;
             font-weight: 600;
@@ -127,7 +120,6 @@
             100% { transform: translateX(0); }
         }
         
-        /* Sections */
         .section {
             padding: 4rem 0;
             background-color: white;
@@ -167,7 +159,6 @@
             margin-bottom: 1rem;
         }
         
-        /* Footer */
         footer {
             background-color: #333;
             color: white;
@@ -179,7 +170,6 @@
             margin: 0;
         }
         
-        /* Responsivitas */
         @media (max-width: 768px) {
             header .logo {
                 text-align: center;
@@ -212,7 +202,6 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -234,7 +223,6 @@
         </div>
     </header>
 
-    <!-- Hero Section dengan Slider -->
     <section class="hero" id="home">
         <div class="hero-slider">
             <div class="slide" style="background-image: url('https://via.placeholder.com/1920x1080?text=Konstruksi+1');">
@@ -261,7 +249,6 @@
         </div>
     </section>
 
-    <!-- Section Tentang Kami -->
     <section class="section" id="about">
         <div class="container">
             <h2>Tentang Kami</h2>
@@ -269,7 +256,6 @@
         </div>
     </section>
 
-    <!-- Section Layanan -->
     <section class="section" id="services">
         <div class="container">
             <h2>Layanan Kami</h2>
@@ -293,19 +279,15 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contact">
         <div class="container">
             <p>&copy; 2012 Vertix Construction. Semua Hak Dilindungi. | Kontak: info@vertix.co.id | Telepon: (021) 123-4567</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS dan JS Kustom untuk Slider -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // JS sederhana untuk slider (mirip dengan yang mungkin digunakan di situs asli)
-        // Jika ingin lebih advanced, gunakan library seperti Owl Carousel
-        // Ini hanya animasi CSS, tapi bisa ditambah kontrol manual jika diperlukan
     </script>
 </body>
 </html>
+
